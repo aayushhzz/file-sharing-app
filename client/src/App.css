@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+  height: 100vh;
+  width: 100vw;
+  z-index: -10;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -5;
+  overflow: hidden;
+}
+.uploadcontainer{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  input{
+    display: none;
+  }
+}
+.uploader{
+  display: flex;
+  flex-direction: row;
+  height: 480px;
+  width: 1120px;
+  background-color: #00000099;
+  position: absolute;
+  z-index: 10;
+  border-radius: 20px;
+}
+.files{
+  overflow: scroll;
+  height: 380px;
+  margin-top: 1rem;
+}
+.file{
+  height: 90px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: #de870d99;
+  margin-bottom: 1rem;
+  text-align: center;
+  button{
+    margin-top: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+}
+
+.download {
+  margin-left: 2%;
+  margin-right: 25%;
+}
+.copylink{
+  margin-right: 2%;
+}
+.filesize{
+  text-decoration: none;
+  color: #0d34de;
+}
+.filename {
+  text-decoration: underline;
+}
+
+.title {
+  color: #0d34de;
+}
